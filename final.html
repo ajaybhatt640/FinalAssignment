@@ -38,6 +38,106 @@
         <div id="dvMap" style="width: 700px; height: 800px">
         </div>
     </div>
+ <div class="col-sm-5">
+            <div id="dvMap" style="width: 560px; height: 550px">
+            </div>
+            <div style="display: none" id="bookingDiv">
+                <!--parent div-->
+                <div>
+                    <!--Json for clinic name and address-->
+                    <h1 id="demo1"></h1>
+
+
+                    <p id="demo2">
+                        No.1805, Sector-21, Palam Gurugram Road, Dundahera VillageGurgaon, Haryana
+                    </p>
+                    <hr>
+                    <p id="demo3">
+                    </p>
+                </div>
+
+                <div class="week">
+                    <p style="display: inline;">
+                        Avaialablity
+                        <span id="weekspan" style="color: red; border-color: red">SUN</span>
+                        <span id="weekspan">MON</span>
+                        <span id="weekspan">TUE</span>
+                        <span id="weekspan">WED</span>
+                        <span id="weekspan">THR</span>
+                        <span id="weekspan">FRI</span>
+                        <span id="weekspan">SAT</span>
+                    </p>
+                    <!--<div id="rectangle"></div>-->
+
+                </div>
+                <br> <br>
+
+                <div>
+                    <a href="#" onClick="document.getElementById('hideTime').style.display='block'">Time</a>
+                    &nbsp; <b>|</b> &nbsp;
+                    <a href="#" onClick="document.getElementById('hideTime').style.display='none'"
+                        onclick="document.getElementById('hideapp'.style.display='block')">Amenities</a>
+                </div>
+                <br>
+
+                <div id="hideTime" style="display: block">
+
+                    <div>
+                        <span id="datespan" class="glyphicon glyphicon-calendar"></span>
+                        <span id="datespan"><input type="date" id="datepicker"></span>
+                        <span id="datespan" class="glyphicon glyphicon-chevron-down"></span>
+                    </div>
+                    <br>
+                    <div>
+                        <span onclick="weatherfun1()" id="weatherspan1"><img onclick="weatherfun1()" height="16px"
+                                id="imageFade1" src="morning.png"><a onclick="weatherfun1()"
+                                id="dayt1">&nbsp;&nbsp;MORNING</a>
+                        </span>
+                        <span onclick="weatherfun2()" id="weatherspan2"><img onclick="weatherfun2()" height="16px"
+                                id="imageFade2" src="afternoon.png"><a onclick="weatherfun2()"
+                                id="dayt2">&nbsp;&nbsp;AFTERNOON</a>
+                        </span>
+                        <span onclick="weatherfun3()" id="weatherspan3"><img onclick="weatherfun3()" height="16px"
+                                id="imageFade3" src="evening.png"><a onclick="weatherfun3()"
+                                id="dayt3">&nbsp;&nbsp;EVENING</a></span>
+                        <span onclick="weatherfun4()" id="weatherspan4"><img onclick="weatherfun4()" height="16px"
+                                id="imageFade4" src="night.png"><a onclick="weatherfun4()"
+                                id="dayt4">&nbsp;&nbsp;NIGHT</a>
+                        </span>
+                    </div>
+                    <br>
+                    <div id="appointDiv">
+                    </div>
+                </div>
+
+                <div id="hideapp" style="display: none">
+                    <ul>
+                        <li>
+                            Car Parking
+                        </li>
+                        <li>
+                            Bike Parking
+                        </li>
+                    </ul>
+
+
+                </div>
+
+
+
+                <div id="Amount">
+                    <span>TOTAL AMOUNT </span>
+                    <span><b>:</b></span>
+                    <span>&#x20b9;</span>
+                    <span id="Amount">900</span>
+                    <span><input type="button" id="confrmbtn" value="CONFIRM APPOINTMENT"></span>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
