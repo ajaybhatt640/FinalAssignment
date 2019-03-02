@@ -1165,3 +1165,38 @@ function LoadMap() {
  map.setCenter(latlngbounds.getCenter());
  map.fitBounds(latlngbounds);
 }
+$(document).ready(function () {
+ markers.doctorListing.forEach(item => {
+ $('#container').append(`<div class="row Card">
+ <div class="col-md-3">
+ <div class="Pic">
+ <img src="fdoc.jpg">
+ </div>
+ </div>
+ <div class="col-md-9">
+ <div class="row Details">
+ <div class="col-md-6 DetailsColI">
+ <p class="Name">`+ item.docName + `</p>
+ <p class="Qualification">`+ item.qualification + `</p>
+ <p class="Specialisation">`+ item.specialization + ` ( ` + item.experience + ` years )</p>
+ </div>
+ <div class="col-md-6 DetailsColII">
+ <div class="Address">
+ <div><i class="fas fa-map-marker-alt"></i></div>
+ <div>
+ <p>`+ item.address[0].addressLineOne + `</p>
+ <p>`+ item.address[0].addressLineTwo + `</p>
+ <p>`+ item.address[0].city + ` | ` + item.address[0].state + `</p>
+ </div>
+ </div>
+ <p class="Cost"><i class="fas fa-rupee-sign"></i>`+ item.cost + `</p>
+ </div>
+ </div>
+ </div>
+ <div class="Book">
+ <button>Book</button>
+ </div>
+ </div>`
+ )
+ })
+});
