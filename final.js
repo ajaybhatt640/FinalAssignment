@@ -59,8 +59,8 @@ var markers = {
  "gender": "female",
  "address": [
  {
- "addressLineOne": "Khetrapal Nursing Home",
- "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+  "addressLineOne": "Lifecare Nursing Home",
+  "addressLineTwo": "Dwarka",
  "city": "New Delhi",
  "state": "Delhi",
 
@@ -113,8 +113,8 @@ var markers = {
  "gender": "male",
  "address": [
  {
- "addressLineOne": "Khetrapal Nursing Home",
- "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+ "addressLineOne": "AIIMS",
+ "addressLineTwo": "Ansari Nagar East, Gautam Nagar, Ansari Nagar East",
  "city": "New Delhi",
  "state": "Delhi",
  "lat": 28.7,
@@ -154,7 +154,7 @@ var markers = {
  {
  "docName": "Vivek",
  "doctorID": 102,
- "specialization": "Geriatricians‎",
+ "specialization": "Geriatricians",
  "qualification": "BDS",
  "rating": 3,
  "experience": 6,
@@ -162,8 +162,8 @@ var markers = {
  "gender": "male",
  "address": [
  {
- "addressLineOne": "Khetrapal Nursing Home",
- "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+    "addressLineOne": "DermaClinix-The complete Skin and Hair Solution Center",
+    "addressLineTwo": "E-13, Basement, Defence Colony, Near Andrews Ganj Bus Stop, Block E, Defence Colony",
  "city": "New Delhi",
  "state": "Delhi",
  "lat": 28.7,
@@ -204,7 +204,7 @@ var markers = {
  {
  "docName": "Karan",
  "doctorID": 103,
- "specialization": "Gastroenterologists‎",
+ "specialization": "Gastroenterologists",
  "qualification": "MD",
  "rating": 2,
  "experience": 5,
@@ -212,8 +212,8 @@ var markers = {
  "gender": "male",
  "address": [
  {
- "addressLineOne": "Khetrapal Nursing Home",
- "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+  "addressLineOne": "Child Health Care Center",
+ "addressLineTwo": "C-23, Kharera, Hauz Khas",
  "city": "New Delhi",
  "state": "Delhi",
  "lat": 28.7,
@@ -253,7 +253,7 @@ var markers = {
  {
  "docName": "Shivli",
  "doctorID": 104,
- "specialization": "Allergologists‎",
+ "specialization": "Allergologists",
  "qualification": "DO",
  "rating": 5,
  "experience": 1,
@@ -261,8 +261,8 @@ var markers = {
  "gender": "Female",
  "address": [
  {
- "addressLineOne": "Khetrapal Nursing Home",
- "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+  "addressLineOne": "Orthopaedic Clinic",
+ "addressLineTwo": "C1 Ln, Block C, Vasant Vihar",
  "city": "New Delhi",
  "state": "Delhi",
  "lat": 28.7,
@@ -310,8 +310,8 @@ var markers = {
  "gender": "female",
  "address": [
  {
- "addressLineOne": "Khetrapal Nursing Home",
- "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+ "addressLineOne": "Dental OPD, AIIMS",
+ "addressLineTwo": "Center for Dental Education and Research, AIIMS Campus",
  "city": "New Delhi",
  "state": "Delhi",
  "lat": 28.7,
@@ -350,7 +350,7 @@ var markers = {
  {
  "docName": "Ajay",
  "doctorID": 106,
- "specialization": "Diabetologists‎ ",
+ "specialization": "Diabetologists ",
  "qualification": "MBBS",
  "rating": 2,
  "experience": 9,
@@ -358,8 +358,8 @@ var markers = {
  "gender": "male",
  "address": [
  {
- "addressLineOne": "Khetrapal Nursing Home",
- "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+  "addressLineOne": "Surgine Healthcare",
+  "addressLineTwo": "AB-4, 2nd Floor, Shalimar Bagh, AA Block, Poorbi Shalimar Bag, Shalimar Bagh",
  "city": "New Delhi",
  "state": "Delhi",
  "lat": 28.7,
@@ -399,7 +399,7 @@ var markers = {
  {
  "docName": "Vaibhav",
  "doctorID": 107,
- "specialization": "Cardiologists‎",
+ "specialization": "Cardiologists",
  "qualification": "MBBS",
  "rating": 5,
  "experience": 5,
@@ -447,7 +447,7 @@ var markers = {
  {
  "docName": "Pranjal",
  "doctorID": 108,
- "specialization": "Internists‎",
+ "specialization": "Internists",
  "qualification": "DO",
  "rating": 5,
  "experience": 0.5,
