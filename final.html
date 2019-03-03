@@ -1,26 +1,35 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="final.css">
-    <script src="Map.js"></script>
+
     <script src="final.js"></script>
+    <script src="Map.js"></script>
+
     <title>Final</title>
+
 </head>
 
 <body>
-
- <header>
+    <header>
 
         <div class="row">
 
@@ -60,100 +69,134 @@
 
             <div style="display: none" id="bookingDiv">
                 <!--parent div-->
+
                 <div>
                     <!--Json for clinic name and address-->
+
                     <h1 id="demo1"></h1>
 
 
-                    <p id="demo2">
-                        No.1805, Sector-21, Palam Gurugram Road, Dundahera VillageGurgaon, Haryana
-                    </p>
-                    <hr>
-                    <p id="demo3">
-                    </p>
-                </div>
+                    <p>
 
+                        Cosmetic Skin & Homeo Cinic<br>B-1/10, Shop No: 7, nullNew Delhi, Delhi
+                        <hr>Cosmetic Skin & Homeo Cinic
+
+                    </p>
+
+                </div>
                 <div class="week">
-                    <p style="display: inline;">
-                        Avaialablity
-                        <span id="weekspan" style="color: red; border-color: red">SUN</span>
-                        <span id="weekspan">MON</span>
-                        <span id="weekspan">TUE</span>
-                        <span id="weekspan">WED</span>
-                        <span id="weekspan">THR</span>
-                        <span id="weekspan">FRI</span>
-                        <span id="weekspan">SAT</span>
-                    </p>
-                    <!--<div id="rectangle"></div>-->
+                    <ul style="padding:0;">
 
-                </div>
-                <br> <br>
+                        <li style="float:left;">Avaialablity</li>
 
-                <div>
-                    <a href="#" onClick="document.getElementById('hideTime').style.display='block'">Time</a>
-                    &nbsp; <b>|</b> &nbsp;
-                    <a href="#" onClick="document.getElementById('hideTime').style.display='none'"
-                        onclick="document.getElementById('hideapp'.style.display='block')">Amenities</a>
-                </div>
-                <br>
+                        <li class="weekstyle" style="float:left;">SUN</li>
 
-                <div id="hideTime" style="display: block">
+                        <li class="weekstyle" style="float:left;">MON</li>
 
-                    <div>
-                        <span id="datespan" class="glyphicon glyphicon-calendar"></span>
-                        <span id="datespan"><input type="date" id="datepicker"></span>
-                        <span id="datespan" class="glyphicon glyphicon-chevron-down"></span>
-                    </div>
-                    <br>
-                    <div>
-                        <span onclick="weatherfun1()" id="weatherspan1"><img onclick="weatherfun1()" height="16px"
-                                id="imageFade1" src="morning.png"><a onclick="weatherfun1()"
-                                id="dayt1">&nbsp;&nbsp;MORNING</a>
-                        </span>
-                        <span onclick="weatherfun2()" id="weatherspan2"><img onclick="weatherfun2()" height="16px"
-                                id="imageFade2" src="afternoon.png"><a onclick="weatherfun2()"
-                                id="dayt2">&nbsp;&nbsp;AFTERNOON</a>
-                        </span>
-                        <span onclick="weatherfun3()" id="weatherspan3"><img onclick="weatherfun3()" height="16px"
-                                id="imageFade3" src="evening.png"><a onclick="weatherfun3()"
-                                id="dayt3">&nbsp;&nbsp;EVENING</a></span>
-                        <span onclick="weatherfun4()" id="weatherspan4"><img onclick="weatherfun4()" height="16px"
-                                id="imageFade4" src="night.png"><a onclick="weatherfun4()"
-                                id="dayt4">&nbsp;&nbsp;NIGHT</a>
-                        </span>
-                    </div>
-                    <br>
-                    <div id="appointDiv">
-                    </div>
-                </div>
+                        <li class="weekstyle" style="float:left;">TUE</li>
 
-                <div id="hideapp" style="display: none">
-                    <ul>
-                        <li>
-                            Car Parking
-                        </li>
-                        <li>
-                            Bike Parking
-                        </li>
+                        <li class="weekstyle" style="float:left;">WED</li>
+
+                        <li class="weekstyle" style="float:left;">THU</li>
+
+                        <li class="weekstyle" style="float:left;">FRI</li>
+
+                        <li class="weekstyle" style="float:left;">SAT</li>
+
                     </ul>
 
 
+
+                    <!--<div id="rectangle"></div>-->
                 </div>
 
+                <br> <br>
 
+
+
+                <div>
+
+                    <a href="#"
+                        onClick="document.getElementById('hideTime').style.display='block';document.getElementById('aminities').style.display='none'">Time</a>
+
+                    <b>|</b> &nbsp;
+
+                    <a href="#"
+                        onClick="document.getElementById('hideTime').style.display='none';document.getElementById('aminities').style.display='block'">Amenities</a>
+
+                </div>
+
+                <br>
+                <div id="hideTime" style="display: block">
+
+
+
+                    <div>
+
+                        <span id="datespan" class="glyphicon glyphicon-calendar"></span>
+
+                        <span id="datespan"><input type="date" id="datepicker"></span>
+
+                        <span id="datespan" class="glyphicon glyphicon-chevron-down"></span>
+
+                    </div>
+
+                    <br>
+
+                    <div class="timeslot">
+
+                        <a href="#"><i class="fa fa-sun-o"></i>Morning</a>&nbsp;&nbsp;
+
+                        <a href="#"><i class="fa fa-cloud"></i>Afternoon</a>&nbsp;&nbsp;
+
+                        <a href="#"><i class="fa fa-star"></i>Evening</a>&nbsp;&nbsp;
+
+                        <a href="#"><i class="fa fa-moon-o"></i>Night</a>&nbsp;&nbsp;
+
+                    </div>
+
+                    <br>
+
+                </div>
+
+                <div id="aminities" style="display: none">
+
+                    <ul>
+
+                        <li>
+
+                            Car Parking
+
+                        </li>
+
+                        <li>
+
+                            Bike Parking
+
+                        </li>
+
+                    </ul>
+
+                </div>
 
                 <div id="Amount">
+
                     <span>TOTAL AMOUNT </span>
+
                     <span><b>:</b></span>
+
                     <span>&#x20b9;</span>
+
                     <span id="Amount">900</span>
+
                     <span><input type="button" id="confrmbtn" value="CONFIRM APPOINTMENT"></span>
+
                 </div>
-
-
             </div>
         </div>
+
     </div>
+
     <footer style="width:100%;">
         <div class="row">
             <div class="col-sm-3">
@@ -246,7 +289,6 @@
             <hr>
         </div>
     </footer>
-
 
 </body>
 
