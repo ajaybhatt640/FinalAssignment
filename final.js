@@ -2355,12 +2355,17 @@ $(document).ready(function () {
 
 });
 $(document).ready(function () {
- $("button").click(function () {
- var x = document.getElementById("dvMap");
- x.style.display = "none";
- var y = document.getElementById("bookingDiv");
- y.style.display = "block";
- });
+
+    $("a").click(function () {
+
+        var x = document.getElementById("dvMap");
+
+        x.style.display = "none";
+
+        var y = document.getElementById("bookingDiv");
+
+        y.style.display = "block";
+
+    });
+
 });
-
-
