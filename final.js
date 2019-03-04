@@ -313,7 +313,7 @@ data = {
 
             "doctorID": 102,
 
-            "specialization": "Geriatricians‎",
+            "specialization": "Geriatricians",
 
             "qualification": "BDS",
 
@@ -414,7 +414,7 @@ data = {
 
             "doctorID": 103,
 
-            "specialization": "Gastroenterologists‎",
+            "specialization": "Gastroenterologists",
 
             "qualification": "MD",
 
@@ -513,7 +513,7 @@ data = {
 
             "doctorID": 104,
 
-            "specialization": "Allergologists‎",
+            "specialization": "Allergologists",
 
             "qualification": "DO",
 
@@ -709,7 +709,7 @@ data = {
 
             "doctorID": 106,
 
-            "specialization": "Diabetologists‎ ",
+            "specialization": "Diabetologists ",
 
             "qualification": "MBBS",
 
@@ -807,7 +807,7 @@ data = {
 
             "doctorID": 107,
 
-            "specialization": "Cardiologists‎",
+            "specialization": "Cardiologists",
 
             "qualification": "MBBS",
 
@@ -903,7 +903,7 @@ data = {
 
             "doctorID": 108,
 
-            "specialization": "Internists‎",
+            "specialization": "Internists",
 
             "qualification": "DO",
 
@@ -1003,7 +1003,7 @@ data = {
 
             "doctorID": 109,
 
-            "specialization": "Geriatricians‎",
+            "specialization": "Geriatricians",
 
             "qualification": "BDS",
 
@@ -1103,7 +1103,7 @@ data = {
 
             "doctorID": 109,
 
-            "specialization": "Internists‎",
+            "specialization": "Internists",
 
             "qualification": "BMBS",
 
@@ -1302,7 +1302,7 @@ data = {
 
             "doctorID": 100,
 
-            "specialization": "Diabetologists‎ ",
+            "specialization": "Diabetologists ",
 
             "qualification": "MD",
 
@@ -1402,7 +1402,7 @@ data = {
 
             "doctorID": 111,
 
-            "specialization": "Internists‎ ",
+            "specialization": "Internists ",
 
             "qualification": "MBBS",
 
@@ -1502,7 +1502,7 @@ data = {
 
             "doctorID": 113,
 
-            "specialization": "Immunologists‎",
+            "specialization": "Immunologists",
 
             "qualification": "BDS",
 
@@ -1600,7 +1600,7 @@ data = {
 
             "doctorID": 114,
 
-            "specialization": "Hygienists‎ ",
+            "specialization": "Hygienists ",
 
             "qualification": "MD",
 
@@ -1796,7 +1796,7 @@ data = {
 
             "doctorID": 116,
 
-            "specialization": "Diabetologists‎ ",
+            "specialization": "Diabetologists ",
 
             "qualification": "MD",
 
@@ -1992,7 +1992,7 @@ data = {
 
             "doctorID": 118,
 
-            "specialization": "Hematologists‎ ",
+            "specialization": "Hematologists ",
 
             "qualification": "MD",
 
@@ -2090,7 +2090,7 @@ data = {
 
             "doctorID": 119,
 
-            "specialization": "Leprologists‎ ",
+            "specialization": "Leprologists ",
 
             "qualification": "MBBS",
 
@@ -2189,7 +2189,7 @@ data = {
 
             "doctorID": 120,
 
-            "specialization": "Hygienists‎ ",
+            "specialization": "Hygienists",
 
             "qualification": "BMBS",
 
