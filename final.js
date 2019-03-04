@@ -313,7 +313,7 @@ data = {
 
             "doctorID": 102,
 
-            "specialization": "Geriatricians",
+            "specialization": "Geriatricians‎",
 
             "qualification": "BDS",
 
@@ -414,7 +414,7 @@ data = {
 
             "doctorID": 103,
 
-            "specialization": "Gastroenterologists",
+            "specialization": "Gastroenterologists‎",
 
             "qualification": "MD",
 
@@ -513,7 +513,7 @@ data = {
 
             "doctorID": 104,
 
-            "specialization": "Allergologists",
+            "specialization": "Allergologists‎",
 
             "qualification": "DO",
 
@@ -709,7 +709,7 @@ data = {
 
             "doctorID": 106,
 
-            "specialization": "Diabetologists ",
+            "specialization": "Diabetologists‎ ",
 
             "qualification": "MBBS",
 
@@ -807,7 +807,7 @@ data = {
 
             "doctorID": 107,
 
-            "specialization": "Cardiologists",
+            "specialization": "Cardiologists‎",
 
             "qualification": "MBBS",
 
@@ -903,7 +903,7 @@ data = {
 
             "doctorID": 108,
 
-            "specialization": "Internists",
+            "specialization": "Internists‎",
 
             "qualification": "DO",
 
@@ -1003,7 +1003,7 @@ data = {
 
             "doctorID": 109,
 
-            "specialization": "Geriatricians",
+            "specialization": "Geriatricians‎",
 
             "qualification": "BDS",
 
@@ -1103,7 +1103,7 @@ data = {
 
             "doctorID": 109,
 
-            "specialization": "Internists",
+            "specialization": "Internists‎",
 
             "qualification": "BMBS",
 
@@ -1302,7 +1302,7 @@ data = {
 
             "doctorID": 100,
 
-            "specialization": "Diabetologists ",
+            "specialization": "Diabetologists‎ ",
 
             "qualification": "MD",
 
@@ -1402,7 +1402,7 @@ data = {
 
             "doctorID": 111,
 
-            "specialization": "Internists ",
+            "specialization": "Internists‎ ",
 
             "qualification": "MBBS",
 
@@ -1502,7 +1502,7 @@ data = {
 
             "doctorID": 113,
 
-            "specialization": "Immunologists",
+            "specialization": "Immunologists‎",
 
             "qualification": "BDS",
 
@@ -1600,7 +1600,7 @@ data = {
 
             "doctorID": 114,
 
-            "specialization": "Hygienists ",
+            "specialization": "Hygienists‎ ",
 
             "qualification": "MD",
 
@@ -1796,7 +1796,7 @@ data = {
 
             "doctorID": 116,
 
-            "specialization": "Diabetologists ",
+            "specialization": "Diabetologists‎ ",
 
             "qualification": "MD",
 
@@ -1992,7 +1992,7 @@ data = {
 
             "doctorID": 118,
 
-            "specialization": "Hematologists ",
+            "specialization": "Hematologists‎ ",
 
             "qualification": "MD",
 
@@ -2090,7 +2090,7 @@ data = {
 
             "doctorID": 119,
 
-            "specialization": "Leprologists ",
+            "specialization": "Leprologists‎ ",
 
             "qualification": "MBBS",
 
@@ -2189,7 +2189,7 @@ data = {
 
             "doctorID": 120,
 
-            "specialization": "Hygienists",
+            "specialization": "Hygienists‎ ",
 
             "qualification": "BMBS",
 
@@ -2341,7 +2341,7 @@ $(document).ready(function () {
 
 	<div class="Book">
 
-	<a>Book</a>
+	<button id="a">Book</button>
 
 	</div>
 
@@ -2349,14 +2349,143 @@ $(document).ready(function () {
 
         )
 
+
+        
+
         index++;
 
     })
+    $('#bookingDiv').append(`<div class="row Card">
+
+        <div>
+        <p>
+          
+        <h3>`+ data.doctorListing[0].docName + `</h3>
+        <button style="background:white;float:right;" onClick="document.getElementById('dvMap').style.display='block';document.getElementById('bookingDiv').style.display='none'"><i class="fa fa-window-close"></i></button>
+        <br>
+        `+ data.doctorListing[0].address[0].addressLineOne +  data.doctorListing[0].address[0].addressLineTwo +`
+            <hr><h4>`+ data.doctorListing[0].specialization +`<h4>
+            
+        </p>
+
+    </div>
+    <div class="week">
+        <ul style="padding:0;">
+
+            <li style="float:left;">Availability</li>
+
+            <li class="weekstyle" style="float:left;">SUN</li>
+
+            <li class="weekstyle" style="float:left;">MON</li>
+
+            <li class="weekstyle" style="float:left;">TUE</li>
+
+            <li class="weekstyle" style="float:left;">WED</li>
+
+            <li class="weekstyle" style="float:left;">THU</li>
+
+            <li class="weekstyle" style="float:left;">FRI</li>
+
+            <li class="weekstyle" style="float:left;">SAT</li>
+
+        </ul>
+
+
+
+        <!--<div id="rectangle"></div>-->
+    </div>
+
+    <br> <br>
+
+
+
+    <div>
+
+        <a href="#"
+            onClick="document.getElementById('hideTime').style.display='block';document.getElementById('aminities').style.display='none'">Time</a>
+
+        <b>|</b> &nbsp;
+
+        <a href="#"
+            onClick="document.getElementById('hideTime').style.display='none';document.getElementById('aminities').style.display='block'">Amenities</a><br>
+
+    </div>
+
+    <br>
+    <div id="hideTime" style="display: block">
+
+
+
+        <div>
+
+            <span id="datespan" class="glyphicon glyphicon-calendar"></span>
+
+            <span id="datespan"><input type="date" id="datepicker"></span>
+
+            <span id="datespan" class="glyphicon glyphicon-chevron-down"></span>
+
+        </div>
+
+        <br>
+
+        <div class="timeslot">
+
+            <a href="#"><i class="fa fa-sun-o"></i>Morning</a>&nbsp;&nbsp;
+
+            <a href="#"><i class="fa fa-cloud"></i>Afternoon</a>&nbsp;&nbsp;
+
+            <a href="#"><i class="fa fa-star"></i>Evening</a>&nbsp;&nbsp;
+
+            <a href="#"><i class="fa fa-moon-o"></i>Night</a>&nbsp;&nbsp;
+
+        </div>
+
+        <br>
+
+    </div>
+
+    <div id="aminities" style="display: none">
+
+        <ul>
+
+            <li>
+
+                Car Parking
+
+            </li>
+
+            <li>
+
+                Bike Parking
+
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div id="Amount">
+
+        <span>TOTAL AMOUNT </span>
+
+        <span><b>:</b></span>
+
+        <span>&#x20b9;</span>
+
+        <span id="Amount">900</span>
+
+        <span><input type="button" id="confrmbtn" value="CONFIRM APPOINTMENT"></span>
+
+    </div>
+    
+        </div>`
+    
+            )
 
 });
 $(document).ready(function () {
 
-    $("a").click(function () {
+    $("#a").click(function () {
 
         var x = document.getElementById("dvMap");
 
